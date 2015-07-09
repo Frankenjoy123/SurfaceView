@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff00"
+    tools:context=".MainActivity">
+
+    <com.itxiaowu.surfaceview.SurfaceTemple
+        android:id="@+id/sv_prize_table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_start_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/start"
+        />
+
+</RelativeLayout>
